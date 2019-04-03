@@ -14,6 +14,7 @@ count = 0
 
 with open("password.txt") as f:
 	for line in f:
+		print (line)
 		num = 0
 		lower_case = 0
 		upper_case = 0
@@ -43,7 +44,7 @@ with open("password.txt") as f:
 		else:
 			three_com+=1	
 		count+=1
-		if(count > 100000):
+		if(count > 1000):
 			break
 
 print ("There are %s less or equal than length 6 passwords in 1000000 files " % (less_than_six)) 		
