@@ -10,7 +10,7 @@ one_com = 0
 two_com = 0
 three_com = 0
 
-count = 0
+count = 1
 
 with open("password.txt") as f:
 	for line in f:
