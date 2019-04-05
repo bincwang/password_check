@@ -14,6 +14,7 @@ count = 1
 
 with open("password.txt") as f:
 	for line in f:
+		line = line.split(:)[1]
 		num = 0
 		lower_case = 0
 		upper_case = 0
