@@ -52,7 +52,7 @@ print ("There are %s no mixture passwords in 1000000 files " % (one_com))
 print ("There are %s having two combinations of passwords in 1000000 files " % (two_com))
 print ("There are %s passwords containing more than three combinations in 1000000 files " % (three_com))
  		
- 		
+
  		
  		
  		
